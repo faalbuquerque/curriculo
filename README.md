@@ -1,2 +1,2 @@
 # curriculo
-Meu curriculo feito em Ruby &amp; Rayls
+Meu curriculo feito em Ruby &amp; Rails

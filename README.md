@@ -1,9 +1,11 @@
 
-# Meu curriculo feito em Ruby & Rails:
- 
- Para acessar [clique aqui](https://curriculo-fabi.herokuapp.com/)
+## Meu curriculo feito em Ruby & Rails:
 
-Tecnologias utilizadas:
+### Para acessar [clique aqui!](https://curriculo-fabi.herokuapp.com/)
+ 
+<hr>
+
+### Tecnologias utilizadas:
 
 * Ruby & Rails
 
@@ -25,8 +27,10 @@ Tecnologias utilizadas:
 
 * ActiveRecord
 
+<hr>
 
-![Login](images/Screen01.png)
-![Login](images/Screen02.png)
-![Login](images/Screen03.png)
-![Login](images/Screen04.png)
+### Telas :
+![Login](images/1.jpeg)
+![Login](images/2.jpeg)
+![Login](images/3.jpeg) 
+![Login](images/4.jpeg)

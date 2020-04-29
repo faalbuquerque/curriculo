@@ -1,25 +1,32 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Meu curriculo feito em Ruby & Rails:
+ 
+ Para acessar [clique aqui](https://curriculo-fabi.herokuapp.com/)
 
-Things you may want to cover:
+Tecnologias utilizadas:
 
-* Ruby version
+* Ruby & Rails
 
-* System dependencies
+* HTML
 
-* Configuration
+* CSS
 
-* Database creation
+* BootStrap
 
-* Database initialization
+* Jquery
 
-* How to run the test suite
+* JavaScript
 
-* Services (job queues, cache servers, search engines, etc.)
+* Devise
 
-* Deployment instructions
+* Heroku
 
-* ...
+* PostgreSQL
 
+* ActiveRecord
+
+
+![Login](images/Screen01.png)
+![Login](images/Screen02.png)
+![Login](images/Screen03.png)
+![Login](images/Screen04.png)

@@ -1,5 +1,4 @@
 <% if @academic.errors.any? %>
-<% @academic.errors.full_messages %>
   <% @academic.errors.full_messages.each do |message| %>
       <p>O campo <%= t(message) %></p>
   <% end %>

@@ -1,5 +1,4 @@
 <% if @personal_info.errors.any? %>
-<% @personal_info.errors.full_messages %>
   <% @personal_info.errors.full_messages.each do |message| %>
       <p>O campo <%= t(message) %></p>
   <% end %>

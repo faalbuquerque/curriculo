@@ -1,0 +1,23 @@
+<% if @course.errors.any? %>
+<% @course.errors.full_messages %>
+  <% @course.errors.full_messages.each do |message| %>
+      <p>O campo <%= t(message) %></p>
+  <% end %>
+<% end %>
+
+<%= form_with model: @course, local: true do |f| %>
+<%= f.label :name, 'Nome do curso' %>
+<%= f.text_field :name %>
+<%= f.label :duration, 'Carga Horaria' %>
+<%= f.number_field :duration %>
+<%= f.label :conclusion, 'Data de conclusao' %>
+<%= f.date_field :conclusion %>
+<%= f.label :certificate, 'Link do Certificado' %>
+<%= f.url_field :certificate %>
+
+<%= f.label :institution, 'Nome da Escola' %>
+<%= f.text_field :institution %>
+
+<%= f.submit "Salvar" %>
+<% end %>
+  

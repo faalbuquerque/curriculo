@@ -1,0 +1,46 @@
+pt-BR:
+  hello: "ola"
+  name: 'nome:'
+  duration: 'duração:'
+  conclusion: 'data de conclusão:'
+  certificate: ''
+  institution: 'Instituição:'
+  course: 'Curso:'
+  courses: 'Cursos'
+  academic: 'Formação'
+  academics: 'Formações'
+  start_date: 'Data de inicio:'
+  end_date: 'Data de fim:'
+  status: 'Situação:'
+  Conclusion: 'Conclusão'
+  Certificate: 'Certificado'
+  Duration: 'Duração'
+  saved_course: 'Curso salvo com sucesso!'
+  activerecord:
+    models:
+      courses: 'Cursos'
+      academics: 'Formacões'
+      personal_info: 'dados pessoais'
+    attributes:
+      course:
+        name: 'Nome'
+        duration: 'Duração'
+        conclusion: 'Conclusão'
+        certificate: 'Certificado'
+    errors: 
+      messages:
+        blank: 'deve ser preenchido'
+        invalid: 'Inválido'
+        taken: 'Já em uso'
+        confirmation: 'Entradas diferentes, insira igual'
+        too_long: "Supera o limite de caracteres, que é: %{count}'"
+        too_short: "Inferior ao minimo de caracteres, que é: %{count}'"
+  personal_infos: 'dados pessoais'
+  age: 'Idade:'
+  address: 'Endereço:'
+  created_at: 'criado em:'
+  social: 'Redes sociais:'
+  fone: 'Telefone:'
+
+ 
+

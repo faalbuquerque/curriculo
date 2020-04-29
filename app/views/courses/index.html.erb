@@ -1,0 +1,16 @@
+<ol>
+	<% @courses.each do |course| %>
+		<li>
+			<%= course.name %>
+			<%= course.duration %>
+			<%= course.conclusion %>
+			<%= course.certificate %>
+
+			<%= course.institution %>
+
+			<p><%= link_to 'editar', edit_course_path(course) %></p>
+			<p><%= link_to 'delete', course_path(course), method: 'delete' %></p>
+		</li>
+    <% end %> 
+</ol>
+<p><%= link_to 'Adicionar', new_course_path %></p>

@@ -1,0 +1,20 @@
+<% if @personal_info.errors.any? %>
+<% @personal_info.errors.full_messages %>
+  <% @personal_info.errors.full_messages.each do |message| %>
+      <p>O campo <%= t(message) %></p>
+  <% end %>
+<% end %>
+
+<%= form_with model: @personal_info, local: true do |f| %>
+  <%= f.label :name, 'Nome' %>
+  <%= f.text_field :name %>
+  <%= f.label :age, 'Idade' %>
+  <%= f.number_field :age %>
+  <%= f.label :address, 'Endereco' %>
+  <%= f.text_field :address %>
+  <%= f.label :fone, 'Telefone' %>
+  <%= f.telephone_field :fone %>
+  <%= f.label :social, 'Redes Sociais' %>
+  <%= f.url_field :social %>
+  <%= f.submit "Salvar" %>
+<% end %>

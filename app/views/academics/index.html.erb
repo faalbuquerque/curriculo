@@ -1,0 +1,22 @@
+<ol>
+	<% @academics.each do |academic| %>
+		<li>
+			<ul>
+				<li><%= academic.institution %></li>
+				<li><%= academic.course %></li>
+				<li><%= academic.start_date %></li>
+				<li><%= academic.end_date %></li>
+
+				<% if academic.status == 'Concluido' %>
+					return 'Concluido'
+				<% end %>
+				
+			</ul>
+		</li>
+	<%= link_to 'Editar', edit_academic_path(academic) %>
+	<%= link_to 'deletar', academic_path(academic), method: 'delete' %>
+	<% end %>
+</ol>
+<p><%= link_to 'Adicionar', new_academic_path %></p>
+
+

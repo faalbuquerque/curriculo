@@ -1,0 +1,12 @@
+<ul>
+	<% @personal_infos.each do |personal_info| %>
+		<p><%= personal_info.name %></p>
+		<p><%= personal_info.age %></p>
+		<p><%= personal_info.address %></p>
+		<p><%= personal_info.fone %></p>
+		<p><%= personal_info.social %></p>
+		<%= link_to 'editar', edit_personal_info_path(personal_info) %> 
+		<%= link_to 'delete', personal_info_path(personal_info), method: 'delete' %>
+	<% end %> 
+</ul>
+<p><%= link_to 'Adicionar', new_personal_info_path %></p>

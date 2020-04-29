@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curriculo</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <style>
+      body {
+        background-color: #ececec ;
+      }
+    </style>
+  </head>
+  <body>
+    <% if !(signed_in?) %>
+      <nav class="navbar navbar-light ">
+       
+
+          <%= link_to new_admin_session_path, style:"text-decoration:none" do %> 
+
+          <svg class="bi bi-lock" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M11.5 8h-7a1 1 0 00-1 1v5a1 1 0 001 1h7a1 1 0 001-1V9a1 1 0 00-1-1zm-7-1a2 2 0 00-2 2v5a2 2 0 002 2h7a2 2 0 002-2V9a2 2 0 00-2-2h-7zm0-3a3.5 3.5 0 117 0v3h-1V4a2.5 2.5 0 00-5 0v3h-1V4z" clip-rule="evenodd"/>
+          </svg>
+
+          <% end %>
+       
+
+      </nav>
+    <% else %>
+      <nav class="navbar navbar-light bg-light">
+        <a class="text-center">Ola <%=  (current_admin.email).split('@')[0] %></a>
+        <%= link_to("Dashboard", dashboards_path, method: :get) %>
+        <%= link_to("Sair", destroy_admin_session_path, method: :delete, class:"nav-item text-left ") %>
+      </nav>
+    <% end %>
+
+    <% if !(notice.blank?) %>
+      <p class="notice"><%= notice %></p>
+    <% end %>
+
+    <% if !(alert.blank?) %>
+      <p class="alert"><%= alert %></p>
+    <% end %>
+
+    <%= yield %>
+  </body>
+</html>

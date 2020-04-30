@@ -8,7 +8,6 @@
 ### Technologies used: 
 
 ```
-
 ➡️ Ruby & Rails
 
 ➡️ HTML
@@ -28,7 +27,6 @@
 ➡️ PostgreSQL
 
 ➡️ ActiveRecord
-
 ```
 <hr>
 

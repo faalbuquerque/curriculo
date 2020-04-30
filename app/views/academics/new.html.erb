@@ -1,3 +1,5 @@
+<p><%= link_to 'Voltar', academics_path %></p>
+
 <% if @academic.errors.any? %>
   <% @academic.errors.full_messages.each do |message| %>
       <p>O campo <%= t(message) %></p>

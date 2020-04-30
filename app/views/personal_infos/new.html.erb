@@ -1,3 +1,5 @@
+<p><%= link_to 'Voltar', personal_infos_path %></p>
+
 <% if @personal_info.errors.any? %>
   <% @personal_info.errors.full_messages.each do |message| %>
       <p>O campo <%= t(message) %></p>

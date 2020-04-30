@@ -1,36 +1,40 @@
 
-## Meu curriculo feito em Ruby & Rails:
+## Creating my Ruby & Rails resume
 
-### Para acessar [clique aqui!](https://curriculo-fabi.herokuapp.com/)
+#### To access [click here!](https://curriculo-fabi.herokuapp.com/)
  
 <hr>
 
-### Tecnologias utilizadas:
+### Technologies used: 
 
-* Ruby & Rails
+```
 
-* HTML
+➡️ Ruby & Rails
 
-* CSS
+➡️ HTML
 
-* BootStrap
+➡️ CSS
 
-* Jquery
+➡️ BootStrap
 
-* JavaScript
+➡️ Jquery
 
-* Devise
+➡️ JavaScript
 
-* Heroku
+➡️ Devise
 
-* PostgreSQL
+➡️ Heroku
 
-* ActiveRecord
+➡️ PostgreSQL
 
+➡️ ActiveRecord
+
+```
 <hr>
 
 ### Telas :
-![Login](images/1.jpeg)
-![Login](images/2.jpeg)
-![Login](images/3.jpeg) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Login](images/1.jpeg) &#160;&#160;&#160;&#160;&#160;&#160;
+![Login](images/2.jpeg) <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Login](images/3.jpeg) &#160;&#160;&#160;&#160;&#160;&#160;
 ![Login](images/4.jpeg)
